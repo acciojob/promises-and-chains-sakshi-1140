@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const button = document.getElementById("btn");
 button.addEventListener("click", (event) => {
   event.preventDefault();
@@ -14,7 +13,7 @@ button.addEventListener("click", (event) => {
 
   // Validate inputs
   if (!age || !name) {
-    alert("inputs cannot be empty");
+    alert("Please enter valid details");
     return;
   }
   // Create a promise for form submission handling
